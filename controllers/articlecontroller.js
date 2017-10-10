@@ -4,7 +4,7 @@
 var scrape = require("../scripts/scrape");
 
 // Bring in the Article and Note mongoose models
-var Article = require("../models/article");
+var Article = require("../models/Article");
 
 module.exports = {
   fetch: function(cb) {
