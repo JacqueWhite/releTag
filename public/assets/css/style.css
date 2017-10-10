@@ -1,0 +1,157 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 80px;
+  background-image: url("../images/splitroad.jpg");
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  opacity: 0.5;
+  background-color: #F08080;
+}
+
+.alert alert-warning {
+  background-color: snow;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  opacity: 0.8;
+  box-shadow: 10px 5px 20px 2px lightslategrey;
+}
+
+.jumbotron .overlay {
+  background: linear-gradient(#333, black);
+  position: absolute;
+  opacity: 0.8;
+  z-index: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.jumbotron .background-image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.jumbotron .caption {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.jumbotron .caption h1,
+.jumbotron .caption p {
+  color: white;
+}
+
+.jumbotron h1 {
+  font-weight: 800;
+  font-size: 80px;
+}
+
+.jumbotron p {
+  font-size: 30px;
+  z-index: 2;
+}
+
+.panel {
+  border-radius: 0;
+}
+
+.panel.panel-default .panel-heading {
+  background-color: #a9a9a9;
+}
+
+.panel.panel-default .panel-heading h3 {
+  color: white;
+}
+
+.panel.panel-default .panel-heading .btn {
+  float: right;
+  margin-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.panel.panel-default .panel-body {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #a9a9a9;
+  color: white;
+}
+
+.footer>.container>p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-weight: 800;
+  background: #8b8787;
+  padding: 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a.scrape-new {
+  font-weight: 800;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a.scrape-new:hover {
+  background: #4caf50;
+}
+
+.navbar-inverse .navbar-nav>li>a.scrape-new:active {
+  background: #e51c23;
+}
+
+.scrape-new {
+  cursor: pointer;
+}
+
+.m-top-80 {
+  margin-top: 80px;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+}
+
+.bootbox-body .btn {
+  float: right;
+  margin: 5px;
+}
+
+.note.list-group-item {
+  padding: 30px;
+}
+
+.note.list-group-item .btn {
+  position: relative;
+  bottom: 10px;
+}
